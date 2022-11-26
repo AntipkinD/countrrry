@@ -33,7 +33,7 @@ namespace countrrry
         }
         internal string Print(string country, string capital, double square, int ppl)
         {
-            string all_info = $"Название страны: {country}; название столицы: {capital}; площадь: {square}; численность населения: {ppl}; плотность населения: {PopulationDensity(ppl, square)}";
+            string all_info = $"Название страны: {country}; столица: {capital}; площадь: {square}; численность населения: {ppl}; плотность населения: {PopulationDensity(ppl, square)}";
             return all_info;
         }
     }
